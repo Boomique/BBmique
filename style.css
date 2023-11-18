@@ -1,0 +1,46 @@
+header{
+    background-color: aliceblue;
+    height: 500px;
+    color: black;
+    font-size: 40px;
+    background-image: url(https://staticg.sportskeeda.com/wp-content/uploads/2015/03/10386746_983938531630470_6622837490873195662_n-1427769479.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 20px;
+}
+main{
+    background-color: rgb(27, 21, 11);
+    height: 1000px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background-image: url(https://ggnews.ru/wp-content/uploads/2022/05/plany-budushhih-obnovlenij-clash-of-clans-na-2022-god.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.cont{
+    width: 90%;
+    display: flex;
+}
+.left{
+    background-color: rgba(0, 0, 0, 0.204);
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: justify;
+    padding: 20px;
+}
+.right{
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+.f_left{
+    width:30% ;
+    float: left;
+}
